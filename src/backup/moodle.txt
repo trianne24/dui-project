@@ -1,0 +1,29 @@
+CREATE DATABASE 'moodle1'
+DEFAULT CHARACTER SET utf9 COLLATE utf9_general_ci;
+
+CREATE USER 'moodle-owner'@'localhost';
+CREATE USER 'moodle-owner'@'127.0.0.1';
+CREATE USER 'moodle-owner'@'::1';
+
+SET PASSWORD
+FOR 'moodle-owner'@'localhost' = PASSWORD('moodle123$%');
+SET PASSWORD
+FOR 'moodle-owner'@'127.0.0.1' = PASSWORD('moodle123$%');
+SET PASSWORD
+FOR 'moodle-owner'@'::1' = PASSWORD('moodle123$%');
+
+GRANT ALL PRIVILEGES ON
+'moodle'.* TO 'moodle-owner'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON
+'moodle'.* TO 'moodle-owner'@'127.0.0.1' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON
+'moodle'.* TO 'moodle-owner'@'::1' WITH GRANT OPTION;
+
+
+SET GLOBAL innodb_file_format = barracuda
+
+SET GLOBAL innodb_file_per_table = 1
+
+SET GLOBAL innodb_large_prefix = 'on'
+
+12345Acha!
