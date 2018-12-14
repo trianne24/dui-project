@@ -1,0 +1,63 @@
+Return-Path: <admin@cs-learning.ml>
+Delivered-To: admin@cs-learning.ml
+Received: from iix4.cloudhost.id
+	by iix4.cloudhost.id with LMTP id 6PK2HTPk/Vo+MQUAPFtZuw
+	for <admin@cs-learning.ml>; Fri, 18 May 2018 03:21:07 +0700
+Return-path: <admin@cs-learning.ml>
+Envelope-to: admin@cs-learning.ml
+Delivery-date: Fri, 18 May 2018 03:21:07 +0700
+Received: from cslearni by iix4.cloudhost.id with local (Exim 4.91)
+	(envelope-from <admin@cs-learning.ml>)
+	id 1fJPOd-001TCs-5H
+	for admin@cs-learning.ml; Fri, 18 May 2018 03:21:07 +0700
+To: "System Administrator" <admin@cs-learning.ml>
+Subject: Moodle updates are available (http://cs-learning.ml)
+X-PHP-Originating-Script: 2886:PHPMailer.php
+Date: Thu, 17 May 2018 16:21:06 -0400
+From: "System Administrator (via CS Learning)" <admin@cs-learning.ml>
+Reply-To: "Do not reply to this email" <admin@cs-learning.ml>
+Message-ID: <5afde432b424b1.75587067@cs-learning.ml>
+X-Mailer: PHPMailer 6.0.1 (https://github.com/PHPMailer/PHPMailer)
+X-Moodle-Originating-Script: http://cs-learning.ml => iix4.cloudhost.id:lib/classes/update/checker.php:813
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_N9zevb1NeKgWJEBlCrOBXkgLo9nCzFbP82UbACvgo"
+X-From-Rewrite: unmodified, already matched
+
+This is a multi-part message in MIME format.
+--b1_N9zevb1NeKgWJEBlCrOBXkgLo9nCzFbP82UbACvgo
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=0AUpdate notifications=0A=0AThere is a newer Moodle version available!=0AM=
+oodle 3.5 (Build: 20180517) Version 2018051700 (Stable version)=0AMoodle 3.=
+4.3 (Build: 20180517) Version 2017111303 (Stable version)=0A=0ASee http://c=
+s-learning.ml/admin/index.php for more details=0A=0AIt is strongly recommen=
+ded that you update your site to the latest version to=0Aobtain all recent =
+security and bug fixes.=0A=0AYour Moodle site http://cs-learning.ml is conf=
+igured to automatically check for=0Aavailable updates. You are receiving th=
+is message as the administrator of the=0Asite. You can disable automatic ch=
+ecks for available updates in the Site=0Aadministration section of the Admi=
+nistration block. You can customise the=0Adelivery of this message via your=
+ preferences page.=0A
+--b1_N9zevb1NeKgWJEBlCrOBXkgLo9nCzFbP82UbACvgo
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Update notifications</h1>=0A<h2>There is a newer Moodle version availab=
+le!</h2>=0A<ul>=0A<li><strong>Moodle 3.5 (Build: 20180517)</strong> Version=
+ 2018051700 (Stable version)</li>=0A<li><strong>Moodle 3.4.3 (Build: 201805=
+17)</strong> Version 2017111303 (Stable version)</li>=0A</ul>=0A<p>See <a h=
+ref=3D"http://cs-learning.ml/admin/index.php">http://cs-learning.ml/admin/i=
+ndex.php</a> for more details</p>=0A<p>It is strongly recommended that you =
+update your site to the latest version to obtain all recent security and bu=
+g fixes.</p>=0A<footer><p style=3D"font-size:smaller; color:#333;">Your Moo=
+dle site <a href=3D"http://cs-learning.ml">http://cs-learning.ml</a> is con=
+figured to automatically check for available updates. You are receiving thi=
+s message as the administrator of the site. You can disable automatic check=
+s for available updates in the Site administration section of the Administr=
+ation block. You can customise the delivery of this message via your prefer=
+ences page.</p></footer>
+
+--b1_N9zevb1NeKgWJEBlCrOBXkgLo9nCzFbP82UbACvgo--
+

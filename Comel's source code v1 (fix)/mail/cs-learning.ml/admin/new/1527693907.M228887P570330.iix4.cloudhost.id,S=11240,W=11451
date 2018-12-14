@@ -1,0 +1,211 @@
+Return-Path: <>
+Delivered-To: admin@cs-learning.ml
+Received: from iix4.cloudhost.id
+	by iix4.cloudhost.id with LMTP id +Hp1DVPCDlvaswgAPFtZuw
+	for <admin@cs-learning.ml>; Wed, 30 May 2018 22:25:07 +0700
+Return-path: <>
+Envelope-to: admin@cs-learning.ml
+Delivery-date: Wed, 30 May 2018 22:25:07 +0700
+Received: from mx6.antispamcloud.com ([94.75.244.162]:53598)
+	by iix4.cloudhost.id with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1fO2y9-002OYK-Gn
+	for admin@cs-learning.ml; Wed, 30 May 2018 22:25:07 +0700
+Received: from Debian-exim by mx6.antispamcloud.com with local (Exim 4.89)
+	id 1fO2xU-0002dV-22
+	for admin@cs-learning.ml; Wed, 30 May 2018 17:24:17 +0200
+X-Failed-Recipients: annajleonard@rhyta.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@mx6.antispamcloud.com>
+To: admin@cs-learning.ml
+Content-Type: multipart/report; report-type=delivery-status; boundary=1527693855-eximdsn-1242851481
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fO2xU-0002dV-22@mx6.antispamcloud.com>
+Date: Wed, 30 May 2018 17:24:16 +0200
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "iix4.cloudhost.id",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  This message was created automatically by mail delivery software.
+    A message that you sent could not be delivered to one or more of its recipients.
+    This is a permanent error. The following address(es) 
+ 
+ Content analysis details:   (1.3 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: fakemailgenerator.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.3 HTML_IMAGE_ONLY_24     BODY: HTML: images with 2000-2400 bytes of words
+X-Spam-Flag: NO
+X-From-Rewrite: unmodified, no actual sender determined from check mail permissions
+
+--1527693855-eximdsn-1242851481
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  annajleonard@rhyta.com
+    host fmg-mail-1.fakemailgenerator.com [23.239.30.63]
+    SMTP error from remote mail server after RCPT TO:<annajleonard@rhyta.com>:
+    550 5.1.1 <annajleonard@rhyta.com>: Recipient address rejected:
+    User unknown
+
+--1527693855-eximdsn-1242851481
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; mx6.antispamcloud.com
+
+Action: failed
+Final-Recipient: rfc822;annajleonard@rhyta.com
+Status: 5.0.0
+Remote-MTA: dns; fmg-mail-1.fakemailgenerator.com
+Diagnostic-Code: smtp; 550 5.1.1 <annajleonard@rhyta.com>: Recipient address rejected: User unknown
+
+--1527693855-eximdsn-1242851481
+Content-type: message/rfc822
+
+Return-path: <admin@cs-learning.ml>
+Received: from iix4.cloudhost.id ([103.15.226.60])
+	by mx6.antispamcloud.com with esmtpsa (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <admin@cs-learning.ml>)
+	id 1fO2vI-0000Xo-Mt
+	for annajleonard@rhyta.com; Wed, 30 May 2018 17:22:03 +0200
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=cs-learning.ml; s=default; h=Content-Type:MIME-Version:References:
+	In-Reply-To:List-Unsubscribe:List-Help:List-Id:Message-ID:Reply-To:From:Date:
+	Subject:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:Content-Description
+	:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=oXRqZtdtwQfDcnOkCgDLColSQXNlOMBVJq3DEGJsC+c=; b=TmHPSeMKtfonIts/Yvr7MJhEaS
+	S5LR3re3tfDyHUXEFb21Ab0EXl9OohvqZP3u4CTHinfjzShfBVPdKxbyMXfQ8YUvvqJj599Yka1vc
+	3aPqTQim1/qpe+ubNQfhRpmtqewSegPipUGiAR56ii/NprX/r6PZKBJZuByzoRHFYqss9o1ZFaw1B
+	KxfIQtbHUVHTNMeGgg4Jfdwyf3y7zH7GB8jfwTDEIwWI+e+vSs1N6iL8omUNno/5iCTy7Wy1MrW5p
+	xk8tZUxHO2N3Rn884E3ddOoI96Bk548jjYzn/jJ1Kxeds+CrGptxt+NHBQWFVz9+3I6o5KDzbw7y/
+	ANxsQrcQ==;
+Received: from cslearni by iix4.cloudhost.id with local (Exim 4.91)
+	(envelope-from <admin@cs-learning.ml>)
+	id 1fO2uV-002MCZ-9S
+	for annajleonard@rhyta.com; Wed, 30 May 2018 22:21:11 +0700
+To: "Anna Leonard" <annajleonard@rhyta.com>
+Subject: DUI: Re: apaweh
+X-PHP-Originating-Script: 2886:PHPMailer.php
+Date: Wed, 30 May 2018 11:21:10 -0400
+From: "Anna Leonard (via CS Learning)" <admin@cs-learning.ml>
+Reply-To: "Do not reply to this email" <admin@cs-learning.ml>
+Message-ID: <edaac63636c80fffe1c4327898177cba53b81e90d9347c5dccddf88e87dd80ff@cs-learning.ml>
+X-Mailer: PHPMailer 6.0.1 (https://github.com/PHPMailer/PHPMailer)
+List-Id: "Forum Diskusi W1 - Introduction to UI" <moodleforum5@cs-learning.ml>
+List-Help: http://cs-learning.ml/mod/forum/view.php?f=5
+X-Course-Id: 2
+X-Course-Name: Desain User Interface
+Precedence: Bulk
+X-Auto-Response-Suppress: All
+Auto-Submitted: auto-generated
+List-Unsubscribe: <http://cs-learning.ml/mod/forum/subscribe.php?id=5&d=4>
+In-Reply-To: <74ad74876a0744f3b19dc1ae0acdd9606f7b03365749b11d51bf76a9c3b59d35@cs-learning.ml>
+References: <74ad74876a0744f3b19dc1ae0acdd9606f7b03365749b11d51bf76a9c3b59d35@cs-learning.ml>
+Thread-Topic: DUI: apaweh
+Thread-Index: 74ad74876a0744f3b19dc1ae0acd
+X-Moodle-Originating-Script: http://cs-learning.ml => iix4.cloudhost.id:mod/forum/lib.php:878
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_CMEybH4jFDGBBy7WBt5c5ZWjwosdpJVz1yIy9Lwuqg"
+X-AuthUser: cslearni@iix4.cloudhost.id
+X-Originating-IP: 103.15.226.60
+X-AntiSpamCloud-Domain: masuk.web.id
+X-AntiSpamCloud-Username: iix
+Authentication-Results: antispamcloud.com; auth=pass (login) smtp.auth=iix@masuk.web.id
+X-AntiSpamCloud-Outgoing-Class: unsure
+X-AntiSpamCloud-Outgoing-Evidence: Combined (0.21)
+X-Recommended-Action: accept
+X-Filter-ID: EX5BVjFpneJeBchSMxfU5pEvA+m6NE08CkX3eN2Tv89602E9L7XzfQH6nu9C/Fh9KJzpNe6xgvOx
+ q3u0UDjvO6198zZ3b1Jik9epKnFdvwGG/iqgEJYtuiImOo3hRZr8i/77mVkkLnpxqOrZwNHqfxyo
+ lQg60y2Di2ByYbVoUbFQyacT2UA9FxLvxR5esQOYZoEccCta8t1DaT5VM0GXvJFVgpT1b21uZVck
+ Gp0ccOYNj3IsPxUoOvqBoVWc32LibjGdSRNeAsqwADJIlioxB5mjPOHqKGcBQEyg/4uHaCBhWuGz
+ JRMkDgEAR16TU1huKPGp/DIIBivDZ+qRALOR3L+VLWQRaGiKa60DTEmik5/MrRNP2v5mK7THeIa4
+ U+47F8VpymDAm51vSeaku+X2qYfWdHzoB2yW92yX6zvRr8FsMyewd83qhRHUN79OaH7QZM3NuHht
+ 4ah3jKpVe9Q5dQwPf1ekvTsJu+noz87G5EvibxfIjoIZNaTn1fHBxf+vehIqUczFWeS6sE8e1b5/
+ Un7hvzRBs4Ne1UQHpuIz49XKlu4tKCIJ9VBPKR/AQA6prRrsxnMW/C/2kc9gyIfGQuEulB4NPuev
+ dw7oQuTWmBjo2+TQONd8xEjCXn/ePa9oj9/+DJONR3VDqQfVuzMmJCvCd3RxFap5Aw/yI182Am9H
+ 8mDfdBIR/17WUoeszKH6RY6WrThJwO9+I9LzV4ct7bGROVqrwaWj0F+TKXotgFtWAnLqJ8i6QYgz
+ kYq/9TLictgzcDoFd+96Xw4QUNtTnR/U6I1ZJw8HNnNolVC/E1/NS/e765bKO8AAhT1Rn+HeE2Lp
+ CEEy8JJjMAf7owv2gB2jSzgqFM95NMpm2SF1XlJfby1mKLezbJdQEGTNNsGpifnL+9wgoTj4ygNP
+ w1XfN1NDzPNYHcEn7J1PCauV/Z1KPLlB/5e0r0Q5ucfIRmr7EDfMyupv2Vun0n/ZUyXNhA==
+X-Report-Abuse-To: spam@quarantine1.antispamcloud.com
+
+This is a multi-part message in MIME format.
+--b1_CMEybH4jFDGBBy7WBt5c5ZWjwosdpJVz1yIy9Lwuqg
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=0ADUI -> Forums -> Forum Diskusi W1 - Introduction to UI -> apaweh =0Ahttp=
+://cs-learning.ml/mod/forum/discuss.php?d=3D4#p10=0ARe: apaweh=0Aby Anna Le=
+onard - Wednesday, 30 May 2018, 9:17 PM=0A---------------------------------=
+------------------------------------=0Acieeeeeeeeee=0A=0A=0A=0A=0A---------=
+------------------------------------------------------------=0AThis is a co=
+py of a message posted in DUI.=0A=0ATo reply click on this link: http://cs-=
+learning.ml/mod/forum/post.php?reply=3D10=0AUnsubscribe from this forum: ht=
+tp://cs-learning.ml/mod/forum/subscribe.php?id=3D5=0AUnsubscribe from this =
+discussion:=0Ahttp://cs-learning.ml/mod/forum/subscribe.php?id=3D5&d=3D4=0A=
+Change your forum digest preferences:=0Ahttp://cs-learning.ml/mod/forum/ind=
+ex.php?id=3D2=0A
+--b1_CMEybH4jFDGBBy7WBt5c5ZWjwosdpJVz1yIy9Lwuqg
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"navbar">=0A    <a target=3D"_blank" href=3D"http://cs-learnin=
+g.ml/course/view.php?id=3D2">DUI</a>=0A    &raquo;=0A    <a target=3D"_blan=
+k" href=3D"http://cs-learning.ml/mod/forum/index.php?id=3D2">Forums</a>=0A =
+   &raquo;=0A    <a target=3D"_blank" href=3D"http://cs-learning.ml/mod/for=
+um/view.php?f=3D5">Forum Diskusi W1 - Introduction to UI</a>=0A    &raquo;=
+=0A    <a target=3D"_blank" href=3D"http://cs-learning.ml/mod/forum/discuss=
+.php?d=3D4">apaweh</a>=0A</div>=0A=0A<table border=3D"0" cellpadding=3D"3" =
+cellspacing=3D"0" class=3D"forumpost">=0A    <tr class=3D"header">=0A      =
+  <td width=3D"35" valign=3D"top" class=3D"picture left">=0A            <a =
+href=3D"http://cs-learning.ml/user/view.php?id=3D6&amp;course=3D2"><img src=
+=3D"http://cs-learning.ml/theme/image.php/_s/roshnilite/core/1526282596/u/f=
+2" alt=3D"Picture of Anna Leonard" title=3D"Picture of Anna Leonard" class=
+=3D"userpicture defaultuserpic" width=3D"35" height=3D"35" /></a>=0A       =
+ </td>=0A        <td class=3D"topic ">=0A            <div class=3D"subject"=
+>=0A                Re: apaweh=0A            </div>=0A            <div clas=
+s=3D"author">=0A                by <a target=3D'_blank' href=3D'http://cs-l=
+earning.ml/user/view.php?id=3D6&course=3D2'>Anna Leonard</a> - Wednesday, 3=
+0 May 2018, 9:17 PM=0A            </div>=0A        </td>=0A    </tr>=0A    =
+<tr>=0A        <td class=3D"left side" valign=3D"top">=0A                &n=
+bsp;=0A        </td>=0A        <td class=3D"content">=0A            <p>ciee=
+eeeeeeee<br /></p>=0A=0A            <div class=3D"commands">=0A            =
+        <a target=3D"_blank" href=3D"http://cs-learning.ml/mod/forum/discus=
+s.php?d=3D4&parent=3D7">=0A                        Show parent=0A          =
+          </a>=0A                        |=0A                    <a target=
+=3D"_blank" href=3D"http://cs-learning.ml/mod/forum/post.php?reply=3D10">=
+=0A                        Reply=0A                    </a>=0A            <=
+/div>=0A=0A            <div class=3D"link">=0A                <a target=3D"=
+_blank" href=3D"http://cs-learning.ml/mod/forum/discuss.php?d=3D4#p10">=0A =
+                   See this post in context=0A                </a>=0A      =
+      </div>=0A        </td>=0A    </tr>=0A</table>=0A=0A<hr />=0A<div clas=
+s=3D"mdl-align unsubscribelink">=0A    <a href=3D"http://cs-learning.ml/mod=
+/forum/subscribe.php?id=3D5">Unsubscribe from this forum</a>&nbsp;=0A    <a=
+ href=3D"http://cs-learning.ml/mod/forum/subscribe.php?id=3D5&d=3D4">Unsubs=
+cribe from this discussion</a>&nbsp;=0A    <a href=3D"http://cs-learning.ml=
+/mod/forum/index.php?id=3D2">Change your forum digest preferences</a>=0A</d=
+iv>
+
+--b1_CMEybH4jFDGBBy7WBt5c5ZWjwosdpJVz1yIy9Lwuqg--
+
+
+--1527693855-eximdsn-1242851481--

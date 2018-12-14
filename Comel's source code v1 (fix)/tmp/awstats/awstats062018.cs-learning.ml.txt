@@ -1,0 +1,482 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201806 will be lost/reset.
+# Last config file used to build this data file was /home/cslearni/tmp/awstats/awstats.cs-learning.ml.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2697                
+POS_VISITOR 6929                
+POS_DAY 7425                
+POS_DOMAIN 3376                
+POS_LOGIN 3626                
+POS_ROBOT 3781                
+POS_WORMS 3968                
+POS_EMAILSENDER 4099                
+POS_EMAILRECEIVER 4242                
+POS_SESSION 7589                
+POS_SIDER 7784                
+POS_FILETYPES 4377                
+POS_DOWNLOADS 4681                
+POS_OS 4880                
+POS_BROWSER 4981                
+POS_SCREENSIZE 5117                
+POS_UNKNOWNREFERER 5191                
+POS_UNKNOWNREFERERBROWSER 5278                
+POS_ORIGIN 5360                
+POS_SEREFERRALS 5498                
+POS_PAGEREFS 5642                
+POS_SEARCHWORDS 5790                
+POS_KEYWORDS 5942                
+POS_MISC 2361                
+POS_ERRORS 6001                
+POS_CLUSTER 3482                
+POS_SIDER_404 6153                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180604184650 1106 298592 14469531019993
+FirstTime 20180601211852
+LastTime 20180604184649
+LastUpdate 20180604221618 1106 0 1106 0 0
+TotalVisits 17                  
+TotalUnique 9                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 9                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 428 531 4363798 39 41 14374
+2 81 114 2140481 2 4 432184
+3 0 0 0 0 0 0
+4 92 106 638184 11 11 12978
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 24 54 2596710 3 4 2068
+12 164 219 1550831 18 18 12035
+13 49 67 1577573 6 6 16619
+14 92 155 4621508 13 17 596150
+15 173 300 3172586 14 17 1190
+16 371 574 4141448 17 17 12933
+17 490 616 5685451 38 38 5634
+18 351 399 4621898 7 7 1678
+19 0 0 0 0 0 0
+20 16 45 2124721 1 1 296
+21 6 13 9352 0 0 0
+22 173 220 2072910 26 26 4301
+23 235 356 7201764 27 29 5546
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+id 2725 3719 43844997
+us 20 50 2587029
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+(firefox/)([0-9]\.|[0-1][0]\.) 1 5690 20180604024907 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+jpg 66 8601764 0 0
+php 1766 6738895 0 0
+js 233 1645471 0 0
+pptx 1 963206 0 0
+pdf 1 1045943 0 0
+css 445 2989642 0 0
+gif 31 266011 0 0
+woff2 30 1781632 0 0
+woff 107 5281160 0 0
+png 247 9791078 0 0
+Unknown 766 6288238 0 0
+html 76 1038986 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/pluginfile.php/62/mod_resource/content/1/1.%20Introduction-to-UI.pptx 1 1 963206
+/pluginfile.php/65/mod_resource/content/1/kb-dui1718.pdf 1 1 1045943
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+win10 3616 2660
+linuxandroid 155 85
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+firefox59.0 2863 2033
+firefox56.0 739 618
+chrome66.0.3359.158 155 85
+firefox60.0 14 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 26 44
+From1 0 0
+From2 0 0
+From3 0 0
+From4 2719 3727
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+503 3 1374
+403 7 7973
+404 103 34595
+407 2 15655
+303 106 32735
+206 7 1019964
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 7
+/theme/roshnilite/img/glyphicons-halflings.png 1 http://cs-learning.ml/theme/roshnilite/css/bootstrap.css
+/theme/image.php/roshnilite/theme/1527933819/favicon 40 http://cs-learning.ml/my/index.php
+/theme/image.php/roshnilite/theme/1526282596/favicon 22 http://cs-learning.ml/my/index.php
+/theme/image.php/roshnilite/theme/1528025999/favicon 37 http://cs-learning.ml/my/
+/admin/settings.php 1 http://cs-learning.ml/
+/mod/forum/view.php 1 -
+/admin/roles/define.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 9
+36.71.254.190 1581 2203 20456941 20180603141628
+180.246.25.144 1070 1399 18966169 20180604043922
+116.68.168.78 53 86 2610824 20180604143631
+36.72.32.60 9 14 1798517 20180604184649 20180604184644 /lib/ajax/service.php
+64.233.173.141 8 16 216757 20180604114235
+110.136.107.212 6 13 9352 20180601211900
+64.233.173.143 6 19 1408564 20180604114213
+202.152.57.102 6 6 3194 20180604164422
+64.233.173.142 6 15 961708 20180604114213
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20180601 6 13 9352 1
+20180602 939 1393 12990136 1
+20180603 1535 1975 23698472 5
+20180604 265 388 9821255 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+15mn-30mn 1
+5mn-15mn 1
+0s-30s 6
+1h+ 4
+30mn-1h 1
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 210
+/lib/ajax/service.php 624 66524 1 10
+/theme/yui_combo.php 478 2689891 2 0
+/lib/editor/atto/autosave-ajax.php 312 42761 0 1
+/repository/draftfiles_ajax.php 111 74826 0 0
+/repository/repository_ajax.php 46 26959 0 0
+/ 42 432949 9 1
+/lib/ajax/service-nologin.php 36 92206 0 0
+/my/ 32 591961 1 0
+/pluginfile.php/5/user/icon/roshnilite/f2 27 45476 0 0
+/lib/ajax/setuserpref.php 26 572 0 0
+/theme/roshnilite/css/fonts/Raleway/Raleway.woff 24 1072892 0 0
+/theme/roshnilite/css/fonts/Raleway/Raleway-Bold.woff 22 966128 0 0
+/theme/styles.php/roshnilite/1527933819_1/all 22 1270380 1 0
+/theme/roshnilite/css/fonts/Raleway/Raleway-Light.woff 21 940000 0 0
+/admin/settings.php 21 846714 0 0
+/my/index.php 21 414298 0 0
+/theme/roshnilite/css/fonts/fontawesome-webfont.woff 21 1409856 0 0
+/theme/styles.php/roshnilite/1526282596_1/all 21 1207580 0 0
+/theme/image.php/roshnilite/core/1527933819/help 20 25760 0 0
+/theme/image.php/roshnilite/core/1527933819/t/collapsed 20 56297 0 0
+/theme/roshnilite/css/fonts/Raleway/Raleway-Medium.woff 19 892284 0 0
+/theme/image.php/roshnilite/forum/1527933819/icon 17 21420 0 0
+/theme/image.php/roshnilite/core/1527933819/t/expanded 17 50099 0 0
+/theme/styles.php/roshnilite/1528025999_1/all 17 1538491 1 0
+/theme/image.php/roshnilite/core/1527933819/t/block_to_dock 17 17561 0 0
+/theme/image.php/roshnilite/repository_wikimedia/1527933819/icon 4 3808 0 0
+/mod/quiz/view.php 1 12122 0 0
+/theme/image.php/roshnilite/theme/1528025999/sprite 4 3720 0 1
+/theme/javascript.php/roshnilite/1526282596/footer 15 4384 0 0
+/theme/image.php/roshnilite/theme/1527933819/fp/dnd_arrow 8 466588 0 0
+/theme/image.php/roshnilite/core/1527933819/i/colourpicker 4 4700 0 0
+/theme/image.php/roshnilite/mod_forum/1526282596/t/subscribed 1 177 0 0
+/theme/image.php/roshnilite/core/1526282596/f/jpeg-80 1 6028 0 0
+/theme/image.php/roshnilite/core/1527933819/i/warning 14 5600 0 0
+/theme/image.php/roshnilite/core/1526282596/t/dock_to_block 1 335 0 0
+/theme/image.php/roshnilite/core/1526282596/t/switch_minus 10 9670 0 0
+/theme/image.php/roshnilite/core/1528025918/y/loading 1 2982 0 0
+/admin/roles/allow.php 2 47890 0 0
+/theme/image.php/roshnilite/core/1526282596/i/loading 1 6715 0 0
+/theme/image.php/roshnilite/chat/1526282596/icon 1 1221 0 0
+/blog/index.php 1 11534 0 0
+/lib/ajax/getsiteadminbranch.php 9 779560 0 0
+/theme/font.php/roshnilite/core/1526282596/fontawesome-webfont.woff2 8 457980 0 0
+/theme/image.php/roshnilite/core/1527933819/u/f1 2 2256 0 0
+/theme/image.php/roshnilite/core/1526282596/moodlelogo 11 22970 0 0
+/theme/image.php/roshnilite/core/1527933819/y/loading 12 32802 0 0
+/theme/image.php/roshnilite/block_myoverview/1526282596/courses 5 3855 0 0
+/theme/font.php/roshnilite/core/1527933819/fontawesome-webfont.woff2 15 850320 0 0
+/theme/image.php/roshnilite/core/1527933819/t/switch_plus 11 2783 0 0
+/theme/image.php/roshnilite/assign/1528025999/icon 7 115563 0 1
+/theme/image.php/roshnilite/core/1528025999/f/document-24 3 4227 0 0
+/theme/image.php/roshnilite/url/1528025999/icon 4 5476 0 0
+/theme/image.php/roshnilite/url/1526282596/icon 1 1369 0 0
+/theme/image.php/roshnilite/core/1526282596/i/colourpicker 1 1175 0 0
+/theme/image.php/roshnilite/core/1527933819/i/risk_spam 1 395 0 0
+/theme/image.php/roshnilite/core/1527933819/i/risk_dataloss 3 1320 0 0
+/theme/image.php/roshnilite/mod_forum/1526282596/t/unsubscribed 1 145 0 0
+/cpanel 5 66412 0 0
+/theme/image.php/roshnilite/repository_recent/1527933819/icon 5 2145 0 0
+/mod/forum/post.php 1 36866 0 0
+/theme/image.php/roshnilite/theme/1528025918/sprite 1 930 0 0
+/theme/image.php/roshnilite/core/1528025918/t/collapsed 1 2963 0 0
+/theme/image.php/roshnilite/core/1527933819/i/risk_personal 1 392 0 0
+/theme/image.php/roshnilite/survey/1526282596/icon 1 1346 0 0
+/lib/editor/atto/plugins/managefiles/manage.php 2 30822 0 0
+/theme/image.php/roshnilite/theme/1527933819/sprite 10 9300 0 0
+/theme/image.php/roshnilite/core/1527933819/f/folder-64 3 3306 0 0
+/theme/image.php/roshnilite/forum/1528025918/icon 1 1260 0 0
+/theme/image.php/roshnilite/core/1528025999/i/course 4 5404 0 0
+/theme/image.php/roshnilite/mod_forum/1527933819/t/unsubscribed 3 435 0 0
+/theme/image.php/roshnilite/forum/1526282596/icon 4 3780 0 0
+/theme/image.php/roshnilite/core/1528025999/t/switch_plus 12 3036 0 0
+/theme/image.php/roshnilite/core/1528025999/i/info 4 12496 0 0
+/theme/image.php/roshnilite/repository_upload/1527933819/icon 4 6892 0 0
+/theme/image.php/roshnilite/core/1526282596/y/loading 13 29820 0 0
+/theme/image.php/roshnilite/core/1527933819/i/hide 1 1177 0 0
+/user/profile.php 8 99326 0 0
+/theme/image.php/roshnilite/resource/1526282596/icon 1 1337 0 0
+/theme/image.php/roshnilite/core/1528025999/adv 1 118 0 0
+/theme/image.php/roshnilite/core/1528025999/i/risk_xss 1 404 0 0
+/theme/image.php/roshnilite/core/1528025999/t/collapsed 10 29630 0 0
+/theme/image.php/roshnilite/core/1527933819/t/dock_to_block 1 335 0 0
+/theme/image.php/roshnilite/feedback/1526282596/icon 1 1263 0 0
+/theme/image.php/roshnilite/core/1528025999/u/f2 6 2034 0 0
+/theme/image.php/roshnilite/core/1527933819/t/dockclose 1 395 0 0
+/theme/image.php/roshnilite/imscp/1526282596/icon 1 767 0 0
+/theme/image.php/roshnilite/core/1528025999/f/powerpoint-24 5 6855 0 0
+/theme/image.php/roshnilite/theme/1526282596/sprite 1 930 0 0
+/theme/image.php/roshnilite/core/1527933819/i/info 15 46860 0 0
+/theme/image.php/roshnilite/core/1527933819/u/f2 8 2712 0 0
+/theme/font.php/roshnilite/core/1528025999/fontawesome-webfont.woff2 7 473332 0 1
+/theme/image.php/roshnilite/theme/1528025999/fp/dnd_arrow 3 251388 0 0
+/theme/image.php/roshnilite/core/1526282596/i/loading_small 3 5160 0 0
+/theme/image.php/roshnilite/core/1526282596/i/warning 3 1200 0 0
+/theme/image.php/roshnilite/core/1528025999/i/risk_spam 1 395 0 0
+/mod/forum/view.php 7 99824 0 0
+/theme/image.php/roshnilite/core/1528025999/f/png-80 1 6659 0 0
+/theme/image.php/roshnilite/core/1528025999/y/loading 13 38766 1 0
+/theme/image.php/roshnilite/core/1528025999/help 10 12880 0 1
+/theme/image.php/roshnilite/mod_forum/1528025999/t/subscribed 2 354 0 0
+/theme/image.php/roshnilite/core/1528025918/f/jpeg-80 1 6028 0 0
+/theme/image.php/roshnilite/assign/1527933819/icon 2 33018 0 0
+/theme/image.php/roshnilite/theme/1528025918/fp/dnd_arrow 1 83796 0 0
+/admin/tool/lp/plans.php 1 13721 0 0
+/theme/image.php/roshnilite/repository_user/1527933819/icon 4 1716 0 0
+/theme/image.php/roshnilite/core/1527933819/spacer 5 215 0 0
+/pluginfile.php/50/user/icon/roshnilite/f2 3 3126 0 0
+/theme/image.php/roshnilite/core/1528025999/i/colourpicker 3 3525 0 0
+/theme/image.php/roshnilite/mod_forum/1528025999/t/unsubscribed 2 290 0 0
+/theme/image.php/roshnilite/scorm/1526282596/icon 1 1314 0 0
+/pluginfile.php/5/user/icon/roshnilite/f1 4 21576 0 0
+/mod/assign/view.php 1 13385 0 0
+/theme/image.php/roshnilite/lesson/1526282596/icon 1 1251 0 0
+/theme/image.php/roshnilite/core/1528025999/t/expanded 7 20629 0 0
+/theme/image.php/roshnilite/core/1527933819/i/loading_small 4 6880 0 0
+/admin/roles/define.php 6 323490 0 0
+/user/preferences.php 2 26793 0 0
+/theme/image.php/roshnilite/workshop/1526282596/icon 1 1324 0 0
+/theme/image.php/roshnilite/core/1528025999/i/loading 3 20145 0 0
+/theme/image.php/roshnilite/core/1528025918/help 1 1288 0 0
+/theme/image.php/roshnilite/theme/1528025999/fp/path_folder 3 1527 0 0
+/theme/image.php/roshnilite/core/1528025918/i/warning 1 400 0 0
+/theme/image.php/roshnilite/block_myoverview/1526282596/activities 5 3170 0 0
+/theme/image.php/roshnilite/theme/1528025918/fp/path_folder 1 509 0 0
+/theme/image.php/roshnilite/core/1526282596/t/dockclose 1 395 0 0
+/theme/image.php/roshnilite/core/1527933819/i/loading 2 13430 0 0
+/user/editadvanced.php 4 148843 0 0
+/theme/image.php/roshnilite/theme/1526282596/fp/dnd_arrow 1 83796 0 0
+/mod/forum/index.php 2 30925 0 0
+/theme/image.php/roshnilite/core/1528025918/t/block_to_dock 1 1033 0 0
+/help_ajax.php 1 322 0 0
+/theme/image.php/roshnilite/book/1526282596/icon 1 1373 0 0
+/theme/image.php/roshnilite/core/1528025999/i/loading_small 4 6880 0 0
+/theme/image.php/roshnilite/core/1528025918/i/info 1 3124 0 0
+/theme/image.php/roshnilite/core/1528025918/i/colourpicker 1 1175 0 0
+/theme/image.php/roshnilite/data/1526282596/icon 1 1146 0 0
+/admin/tool/uploaduser/index.php 1 26680 0 0
+/user/profile/index.php 1 22112 0 0
+/user/index.php 1 19615 0 0
+/theme/image.php/roshnilite/glossary/1526282596/icon 1 1235 0 0
+/theme/image.php/roshnilite/core/1528025918/t/expanded 1 2947 0 0
+/theme/image.php/roshnilite/repository_local/1527933819/icon 3 1287 0 0
+/theme/image.php/roshnilite/core/1526282596/t/collapsed 8 23704 0 0
+/theme/styles.php/roshnilite/1528025918_1/all 1 117521 0 0
+/theme/image.php/roshnilite/core/1526282596/t/block_to_dock 12 12396 0 0
+/login/index.php 6 50210 0 0
+/theme/image.php/roshnilite/forum/1528025999/icon 12 15120 0 0
+/theme/image.php/roshnilite/core/1526282596/t/switch_plus 5 1265 0 0
+/theme/image.php/roshnilite/core/1527933819/moodlelogo 5 11485 0 0
+/theme/image.php/roshnilite/core/1527933819/f/png-80 4 26636 0 0
+/theme/javascript.php/roshnilite/1527933819/footer 6 2192 0 0
+/theme/javascript.php/roshnilite/1528025918/footer 1 548 0 0
+/user/edit.php 3 102224 0 0
+/theme/image.php/roshnilite/quiz/1526282596/icon 1 1292 0 0
+/theme/image.php/roshnilite/lti/1526282596/icon 1 1391 0 0
+/my/indexsys.php 3 83775 0 0
+/theme/image.php/roshnilite/core/1527933819/adv 1 118 0 0
+/admin/roles/admins.php 1 23276 0 0
+/theme/image.php/roshnilite/core/1527933819/f/pdf-80 1 5706 0 0
+/admin/user.php 3 96399 0 0
+/mod/forum/user.php 1 12859 0 0
+/theme/image.php/roshnilite/core/1527933819/t/switch_minus 17 16439 0 0
+/pluginfile.php/50/user/icon/roshnilite/f1 2 4238 0 0
+/theme/image.php/roshnilite/core/1528025918/t/switch_plus 1 253 0 0
+/theme/image.php/roshnilite/core/1528025999/f/pdf-24 4 5276 0 0
+/theme/image.php/roshnilite/core/1528025918/moodlelogo 1 2297 0 0
+/theme/image.php/roshnilite/assign/1526282596/icon 1 1167 0 0
+/theme/image.php/roshnilite/core/1528025999/t/switch_minus 14 13538 0 0
+/theme/image.php/roshnilite/repository_url/1527933819/icon 5 8615 0 0
+/theme/image.php/roshnilite/page/1526282596/icon 1 1256 0 0
+/theme/image.php/roshnilite/core/1526282596/f/png-80 1 6659 0 0
+/theme/image.php/roshnilite/core/1528025999/t/block_to_dock 13 13429 0 0
+/theme/image.php/roshnilite/wiki/1526282596/icon 1 1380 0 0
+/theme/image.php/roshnilite/block_myoverview/1528025999/activities 8 5072 0 0
+/theme/image.php/roshnilite/label/1526282596/icon 1 1163 0 0
+/mod/forum/ 1 14076 0 0
+/course/view.php 5 88143 0 0
+/theme/image.php/roshnilite/core/1528025918/t/switch_minus 1 967 0 0
+/notes/index.php 2 26361 0 0
+/admin/roles/check.php 5 111149 0 0
+/admin/ 1 0 0 0
+/theme/image.php/roshnilite/core/1528025999/f/jpeg-80 2 12056 0 0
+/theme/image.php/roshnilite/core/1527933819/i/course 2 2702 0 0
+/theme/image.php/roshnilite/core/1528025918/i/loading 1 6715 0 0
+/theme/image.php/roshnilite/core/1527933819/a/search 3 9537 0 0
+/theme/image.php/roshnilite/folder/1526282596/icon 1 1082 0 0
+/theme/image.php/roshnilite/core/1526282596/help 3 3864 0 0
+/admin/roles/permissions.php 1 12856 0 0
+/theme/image.php/roshnilite/block_myoverview/1528025999/courses 8 6168 0 0
+/theme/image.php/roshnilite/choice/1526282596/icon 1 1285 0 0
+/theme/image.php/roshnilite/core/1526282596/t/expanded 3 8841 0 0
+/theme/image.php/roshnilite/core/1528025918/f/png-80 1 6659 0 0
+/theme/image.php/roshnilite/quiz/1528025999/icon 4 5168 0 0
+/lib/ajax/blocks.php 2 0 0 0
+/theme/image.php/roshnilite/mod_forum/1527933819/t/subscribed 2 354 0 0
+/theme/image.php/roshnilite/repository_areafiles/1527933819/icon 1 136 0 0
+/theme/image.php/roshnilite/theme/1526282596/fp/path_folder 1 509 0 0
+/theme/javascript.php/roshnilite/1528025999/footer 10 4932 1 0
+/theme/image.php/roshnilite/theme/1527933819/fp/path_folder 8 4072 0 0
+/theme/image.php/roshnilite/core/1528025999/moodlelogo 9 20673 0 0
+/theme/image.php/roshnilite/core/1526282596/i/info 5 15620 0 0
+/theme/image.php/roshnilite/core/1528025999/spacer 3 129 0 0
+/theme/image.php/roshnilite/block_myoverview/1527933819/activities 12 7608 0 0
+/theme/image.php/roshnilite/core/1528025999/i/warning 5 2000 0 0
+/course/modedit.php 1 27570 0 0
+/theme/image.php/roshnilite/core/1527933819/f/jpeg-80 4 24112 0 0
+/admin/roles/manage.php 5 105035 0 0
+/grade/report/overview/index.php 1 0 0 0
+/theme/image.php/roshnilite/block_myoverview/1527933819/courses 11 8481 0 0
+/lib/ajax/getnavbranch.php 1 457 0 0
+END_SIDER

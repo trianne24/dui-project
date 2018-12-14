@@ -1,0 +1,309 @@
+Return-Path: <cslearni@iix4.cloudhost.id>
+Delivered-To: cslearni@iix4.cloudhost.id
+Received: from iix4.cloudhost.id
+	by iix4.cloudhost.id with LMTP id +IN8FvLaClvkWwIAPFtZuw
+	for <cslearni@iix4.cloudhost.id>; Sun, 27 May 2018 23:21:06 +0700
+Return-path: <cslearni@iix4.cloudhost.id>
+Envelope-to: cslearni@iix4.cloudhost.id
+Delivery-date: Sun, 27 May 2018 23:21:06 +0700
+Received: from cslearni by iix4.cloudhost.id with local (Exim 4.91)
+	(envelope-from <cslearni@iix4.cloudhost.id>)
+	id 1fMyPn-000eoN-3z
+	for cslearni@iix4.cloudhost.id; Sun, 27 May 2018 23:21:04 +0700
+From: "(Cron Daemon)" <cslearni@iix4.cloudhost.id>
+To: cslearni@iix4.cloudhost.id
+Subject: Cron <cslearni@iix4> /opt/cpanel/ea-php70/root/usr/bin/php -q /home/cslearni/public_html/admin/cli/cron.php
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+Precedence: bulk
+X-Cron-Env: <XDG_SESSION_ID=115012>
+X-Cron-Env: <XDG_RUNTIME_DIR=/run/user/2886>
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/usr/local/cpanel/bin/jailshell>
+X-Cron-Env: <HOME=/home/cslearni>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=cslearni>
+X-Cron-Env: <USER=cslearni>
+Message-Id: <E1fMyPn-000eoN-3z@iix4.cloudhost.id>
+Date: Sun, 27 May 2018 23:21:03 +0700
+X-From-Rewrite: unmodified, actual sender is the system user
+
+Server Time: Sun, 27 May 2018 12:21:02 -0400
+
+
+Execute scheduled task: Completion mark as started (core\task\completion_daily_task)
+... started 12:21:02. Current memory use 16.8MB.
+... used 1 dbqueries
+... used 0.037694931030273 seconds
+Scheduled task complete: Completion mark as started (core\task\completion_daily_task)
+Execute scheduled task: Global search index optimization (core\task\search_optimize_task)
+... started 12:21:02. Current memory use 17.8MB.
+... used 0 dbqueries
+... used 0.001662015914917 seconds
+Scheduled task complete: Global search index optimization (core\task\search_optimize_task)
+Execute scheduled task: Cleanup password reset attempts (core\task\password_reset_cleanup_task)
+... started 12:21:02. Current memory use 17.9MB.
+ Cleaned up old password reset records
+... used 1 dbqueries
+... used 0.019681930541992 seconds
+Scheduled task complete: Cleanup password reset attempts (core\task\password_reset_cleanup_task)
+Execute scheduled task: Check for updates (core\task\check_for_updates_task)
+... started 12:21:02. Current memory use 17.9MB.
+Recently fetched info about available updates is still fresh enough, skipping.
+... used 0 dbqueries
+... used 0.0021708011627197 seconds
+Scheduled task complete: Check for updates (core\task\check_for_updates_task)
+Execute scheduled task: Cleanup old sessions (core\task\session_cleanup_task)
+... started 12:21:02. Current memory use 18MB.
+... used 7 dbqueries
+... used 0.013013124465942 seconds
+Scheduled task complete: Cleanup old sessions (core\task\session_cleanup_task)
+Execute scheduled task: Delete unconfirmed users (core\task\delete_unconfirmed_users_task)
+... started 12:21:02. Current memory use 18.2MB.
+... used 1 dbqueries
+... used 0.00087499618530273 seconds
+Scheduled task complete: Delete unconfirmed users (core\task\delete_unconfirmed_users_task)
+Execute scheduled task: Delete incomplete users (core\task\delete_incomplete_users_task)
+... started 12:21:02. Current memory use 18.2MB.
+... used 0 dbqueries
+... used 5.0067901611328E-5 seconds
+Scheduled task complete: Delete incomplete users (core\task\delete_incomplete_users_task)
+Execute scheduled task: Clean backup tables and logs (core\task\backup_cleanup_task)
+... started 12:21:02. Current memory use 18.2MB.
+... used 2 dbqueries
+... used 0.0072731971740723 seconds
+Scheduled task complete: Clean backup tables and logs (core\task\backup_cleanup_task)
+Execute scheduled task: Cleanup contexts (core\task\context_cleanup_task)
+... started 12:21:02. Current memory use 18.3MB.
+ Cleaned up context instances
+... used 11 dbqueries
+... used 0.015400886535645 seconds
+Scheduled task complete: Cleanup contexts (core\task\context_cleanup_task)
+Execute scheduled task: Remove expired cache entries (core\task\cache_cleanup_task)
+... started 12:21:03. Current memory use 18.4MB.
+... used 1 dbqueries
+... used 0.0041549205780029 seconds
+Scheduled task complete: Remove expired cache entries (core\task\cache_cleanup_task)
+Execute scheduled task: Background processing for messaging (core\task\messaging_cleanup_task)
+... started 12:21:03. Current memory use 18.4MB.
+... used 1 dbqueries
+... used 0.0041911602020264 seconds
+Scheduled task complete: Background processing for messaging (core\task\messaging_cleanup_task)
+Execute scheduled task: Send new user passwords (core\task\send_new_user_passwords_task)
+... started 12:21:03. Current memory use 18.4MB.
+... used 1 dbqueries
+... used 0.0013189315795898 seconds
+Scheduled task complete: Send new user passwords (core\task\send_new_user_passwords_task)
+Execute scheduled task: Send failed login notifications (core\task\send_failed_login_notifications_task)
+... started 12:21:03. Current memory use 18.4MB.
+... used 0 dbqueries
+... used 5.3882598876953E-5 seconds
+Scheduled task complete: Send failed login notifications (core\task\send_failed_login_notifications_task)
+Execute scheduled task: Legacy cron processing for plugins (core\task\legacy_plugin_cron_task)
+... started 12:21:03. Current memory use 18.4MB.
+Running auth crons if required...
+Running enrol crons if required...
+Running cron for enrol_manual...
+Verifying manual enrolment expiration...
+...manual enrolment updates finished.
+manual enrolment expiry notifications were already sent today at Sunday, 27 May 2018, 6:21 AM.
+Running cron for enrol_self...
+Verifying self-enrolments...
+...user self-enrolment updates finished.
+No expired enrol_self enrolments detected
+self enrolment expiry notifications were already sent today at Sunday, 27 May 2018, 6:21 AM.
+Running cron for enrol_cohort...
+Starting activity modules
+Processing module function assign_cron ...
+... used 4 dbqueries
+... used 0.10413217544556 seconds
+done.
+Processing module function chat_cron ...
+... used 5 dbqueries
+... used 0.031821966171265 seconds
+done.
+Processing module function quiz_cron ...
+
+  Looking for quiz overdue quiz attempts...
+  Considered 0 attempts in 0 quizzes.
+Starting quiz reports
+Processing cron function for quiz_statistics...
+... started 12:21:03. Current memory use 26.4MB.
+
+  Cleaning up old quiz statistics cache records...done. (1 dbqueries, 0.02 seconds)
+Finished quiz reports
+... used 5 dbqueries
+... used 0.10058093070984 seconds
+done.
+Processing module function workshop_cron ...
+ processing workshop subplugins ...
+Starting workshop allocation methods
+Processing cron function for workshopallocation_scheduled...
+... started 12:21:03. Current memory use 27.4MB.
+... no workshops awaiting scheduled allocation. done. (1 dbqueries, 0.01 seconds)
+Finished workshop allocation methods
+... used 6 dbqueries
+... used 0.056079149246216 seconds
+done.
+Finished activity modules
+Starting blocks
+Processing cron function for recent_activity....done.
+Processing cron function for rss_client....
+0 feeds refreshed (took 0.003046 seconds)
+done.
+Finished blocks
+Starting admin reports
+Finished admin reports
+Starting course reports
+Finished course reports
+Starting gradebook plugins
+Finished gradebook plugins
+Starting repository plugins
+Processing cron function for repository_dropbox...
+... started 12:21:03. Current memory use 30.1MB.
+done. (1 dbqueries, 0 seconds)
+Processing cron function for repository_filesystem...
+... started 12:21:03. Current memory use 30.1MB.
+done. (3 dbqueries, 0.01 seconds)
+Finished repository plugins
+... used 53 dbqueries
+... used 0.59480214118958 seconds
+Scheduled task complete: Legacy cron processing for plugins (core\task\legacy_plugin_cron_task)
+Execute scheduled task: Background processing for gradebook (core\task\grade_cron_task)
+... started 12:21:03. Current memory use 30.1MB.
+... used 2 dbqueries
+... used 0.0065081119537354 seconds
+Scheduled task complete: Background processing for gradebook (core\task\grade_cron_task)
+Execute scheduled task: Background processing for events (core\task\events_cron_task)
+... started 12:21:03. Current memory use 30.1MB.
+... used 2 dbqueries
+... used 0.0045909881591797 seconds
+Scheduled task complete: Background processing for events (core\task\events_cron_task)
+Execute scheduled task: Calculate regular completion data (core\task\completion_regular_task)
+... started 12:21:03. Current memory use 30.1MB.
+... used 6 dbqueries
+... used 0.024375915527344 seconds
+Scheduled task complete: Calculate regular completion data (core\task\completion_regular_task)
+Execute scheduled task: Background processing for portfolio plugins (core\task\portfolio_cron_task)
+... started 12:21:03. Current memory use 30.4MB.
+... used 0 dbqueries
+... used 4.0054321289062E-5 seconds
+Scheduled task complete: Background processing for portfolio plugins (core\task\portfolio_cron_task)
+Execute scheduled task: Background processing for legacy cron in plagiarism plugins (core\task\plagiarism_cron_task)
+... started 12:21:03. Current memory use 30.4MB.
+... used 0 dbqueries
+... used 5.6982040405273E-5 seconds
+Scheduled task complete: Background processing for legacy cron in plagiarism plugins (core\task\plagiarism_cron_task)
+Execute scheduled task: Send calendar notifications (core\task\calendar_cron_task)
+... started 12:21:03. Current memory use 30.4MB.
+... used 1 dbqueries
+... used 0.0068991184234619 seconds
+Scheduled task complete: Send calendar notifications (core\task\calendar_cron_task)
+Execute scheduled task: Sync external blogs (core\task\blog_cron_task)
+... started 12:21:03. Current memory use 30.8MB.
+... used 2 dbqueries
+... used 0.0090031623840332 seconds
+Scheduled task complete: Sync external blogs (core\task\blog_cron_task)
+Execute scheduled task: Background processing for question engine (core\task\question_cron_task)
+... started 12:21:03. Current memory use 31MB.
+
+  Cleaning up old question previews...done.
+
+  Cleaning up old question statistics cache records...done.
+... used 6 dbqueries
+... used 0.019252061843872 seconds
+Scheduled task complete: Background processing for question engine (core\task\question_cron_task)
+Execute scheduled task: Background processing for caches (core\task\cache_cron_task)
+... started 12:21:03. Current memory use 31.1MB.
+Cleaning up stale session data from cache stores.
+... used 0 dbqueries
+... used 0.00029492378234863 seconds
+Scheduled task complete: Background processing for caches (core\task\cache_cron_task)
+Execute scheduled task: Automated backups (core\task\automated_backup_task)
+... started 12:21:04. Current memory use 31.1MB.
+Checking automated backup status...INACTIVE
+... used 0 dbqueries
+... used 0.043320894241333 seconds
+Scheduled task complete: Automated backups (core\task\automated_backup_task)
+Execute scheduled task: Award badges (core\task\badges_cron_task)
+... started 12:21:04. Current memory use 32.6MB.
+Started reviewing available badges.
+Badges were issued 0 time(s).
+Sending scheduled badge notifications.
+... used 2 dbqueries
+... used 0.017597913742065 seconds
+Scheduled task complete: Award badges (core\task\badges_cron_task)
+Execute scheduled task: Global search indexing (core\task\search_index_task)
+... started 12:21:04. Current memory use 32.8MB.
+... used 0 dbqueries
+... used 4.6014785766602E-5 seconds
+Scheduled task complete: Global search indexing (core\task\search_index_task)
+Execute scheduled task: Complete learning plans which are due (core\task\complete_plans_task)
+... started 12:21:04. Current memory use 32.8MB.
+... used 1 dbqueries
+... used 0.01435399055481 seconds
+Scheduled task complete: Complete learning plans which are due (core\task\complete_plans_task)
+Execute scheduled task: Sync plans from learning plan template cohorts (core\task\sync_plans_from_template_cohorts_task)
+... started 12:21:04. Current memory use 33.6MB.
+... used 1 dbqueries
+... used 0.0053548812866211 seconds
+Scheduled task complete: Sync plans from learning plan template cohorts (core\task\sync_plans_from_template_cohorts_task)
+Execute scheduled task: Refresh OAuth tokens for service accounts (core\oauth2\refresh_system_tokens_task)
+... started 12:21:04. Current memory use 33.6MB.
+... used 1 dbqueries
+... used 0.0047030448913574 seconds
+Scheduled task complete: Refresh OAuth tokens for service accounts (core\oauth2\refresh_system_tokens_task)
+Execute scheduled task: Analytics cleanup (core\task\analytics_cleanup_task)
+... started 12:21:04. Current memory use 33.7MB.
+... used 8 dbqueries
+... used 0.04109001159668 seconds
+Scheduled task complete: Analytics cleanup (core\task\analytics_cleanup_task)
+Execute scheduled task: Forum mailings and maintenance jobs (mod_forum\task\cron_task)
+... started 12:21:04. Current memory use 35.8MB.
+Starting digest processing...
+Cleaned old digest records
+... used 6 dbqueries
+... used 0.049477100372314 seconds
+Scheduled task complete: Forum mailings and maintenance jobs (mod_forum\task\cron_task)
+Execute scheduled task: Background processing for SCORM (mod_scorm\task\cron_task)
+... started 12:21:04. Current memory use 37.8MB.
+... used 0 dbqueries
+... used 0.0077970027923584 seconds
+Scheduled task complete: Background processing for SCORM (mod_scorm\task\cron_task)
+Execute scheduled task: Sync cohort role assignments (tool_cohortroles\task\cohort_role_sync)
+... started 12:21:04. Current memory use 37.2MB.
+Sync cohort roles...
+Added 0
+Removed 0
+... used 2 dbqueries
+... used 0.021600008010864 seconds
+Scheduled task complete: Sync cohort role assignments (tool_cohortroles\task\cohort_role_sync)
+Execute scheduled task: Incoming email pickup (tool_messageinbound\task\pickup_task)
+... started 12:21:04. Current memory use 37.6MB.
+Inbound Message not fully configured - exiting early.
+... used 0 dbqueries
+... used 0.0016419887542725 seconds
+Scheduled task complete: Incoming email pickup (tool_messageinbound\task\pickup_task)
+Execute scheduled task: Cleanup event monitor events (tool_monitor\task\clean_events)
+... started 12:21:04. Current memory use 37.8MB.
+... used 0 dbqueries
+... used 0.0001990795135498 seconds
+Scheduled task complete: Cleanup event monitor events (tool_monitor\task\clean_events)
+Execute scheduled task: Cleanup course recycle bin (tool_recyclebin\task\cleanup_course_bin)
+... started 12:21:04. Current memory use 37.8MB.
+... used 1 dbqueries
+... used 0.0064029693603516 seconds
+Scheduled task complete: Cleanup course recycle bin (tool_recyclebin\task\cleanup_course_bin)
+Execute scheduled task: Cleanup category recycle bin (tool_recyclebin\task\cleanup_category_bin)
+... started 12:21:04. Current memory use 37.8MB.
+... used 1 dbqueries
+... used 0.003676176071167 seconds
+Scheduled task complete: Cleanup category recycle bin (tool_recyclebin\task\cleanup_category_bin)
+Execute scheduled task: Prepare submissions for annotation (assignfeedback_editpdf\task\convert_submissions)
+... started 12:21:04. Current memory use 37.9MB.
+... used 1 dbqueries
+... used 0.0029768943786621 seconds
+Scheduled task complete: Prepare submissions for annotation (assignfeedback_editpdf\task\convert_submissions)
+Cron script completed correctly
+Cron completed at 12:21:04. Memory used 37.9MB.
+Execution took 2.187136 seconds

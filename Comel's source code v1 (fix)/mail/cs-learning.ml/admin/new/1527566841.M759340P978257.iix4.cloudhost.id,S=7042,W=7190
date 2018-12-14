@@ -1,0 +1,148 @@
+Return-Path: <>
+Delivered-To: admin@cs-learning.ml
+Received: from iix4.cloudhost.id
+	by iix4.cloudhost.id with LMTP id oJUpLfnRDFtR7Q4APFtZuw
+	for <admin@cs-learning.ml>; Tue, 29 May 2018 11:07:21 +0700
+Return-path: <>
+Envelope-to: admin@cs-learning.ml
+Delivery-date: Tue, 29 May 2018 11:07:21 +0700
+Received: from mx26.antispamcloud.com ([78.46.59.153]:39948)
+	by iix4.cloudhost.id with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1fNVul-004B5t-QI
+	for admin@cs-learning.ml; Tue, 29 May 2018 11:07:21 +0700
+Received: from Debian-exim by mx26.antispamcloud.com with local (Exim 4.89)
+	id 1fNVu7-0002dl-QY
+	for admin@cs-learning.ml; Tue, 29 May 2018 06:06:36 +0200
+X-Failed-Recipients: 000@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@mx26.antispamcloud.com>
+To: admin@cs-learning.ml
+Content-Type: multipart/report; report-type=delivery-status; boundary=1527566795-eximdsn-1410738196
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fNVu7-0002dl-QY@mx26.antispamcloud.com>
+Date: Tue, 29 May 2018 06:06:35 +0200
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "iix4.cloudhost.id",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  This message was created automatically by mail delivery software.
+    A message that you sent could not be delivered to one or more of its recipients.
+    This is a permanent error. The following address(es) 
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cs-learning.ml]
+X-Spam-Flag: NO
+X-From-Rewrite: unmodified, no actual sender determined from check mail permissions
+
+--1527566795-eximdsn-1410738196
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  000@gmail.com
+    host gmail-smtp-in.l.google.com [74.125.206.26]
+    SMTP error from remote mail server after RCPT TO:<000@gmail.com>:
+    552-5.2.2 The email account that you tried to reach is over quota. Please direct
+    552-5.2.2 the recipient to
+    552 5.2.2  https://support.google.com/mail/?p=OverQuotaPerm d82-v6si13188648wme.104 - gsmtp
+
+--1527566795-eximdsn-1410738196
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; mx26.antispamcloud.com
+
+Action: failed
+Final-Recipient: rfc822;000@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 552-5.2.2 The email account that you tried to reach is over quota. Please direct
+ 552-5.2.2 the recipient to
+ 552 5.2.2  https://support.google.com/mail/?p=OverQuotaPerm d82-v6si13188648wme.104 - gsmtp
+
+--1527566795-eximdsn-1410738196
+Content-type: message/rfc822
+
+Return-path: <admin@cs-learning.ml>
+Received: from iix4.cloudhost.id ([103.15.226.60])
+	by mx26.antispamcloud.com with esmtpsa (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <admin@cs-learning.ml>)
+	id 1fNVu4-00026j-Fw
+	for 000@gmail.com; Tue, 29 May 2018 06:06:33 +0200
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=cs-learning.ml; s=default; h=Content-Type:MIME-Version:Message-ID:Reply-To:
+	From:Date:Subject:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=4mBNWJngzUxvOAb/VgdnyzRIN6N3Y6Vhepzvl0YuWJE=; b=Id3QbP/zY5rd2b6ZlPzQ54gbyc
+	xiUt3n3zhD0qDkz/aedBAzFSf135/nwOHuTKUsks6v+IBct0EQQNM7nKCID8gxYw8/OcSYyIOfx96
+	lV7F9QLGNp/1r994pddqr8ITqrw3vr2bDFN/AuH0T5HbRNjgdsSKzoWRazHP9SYOKMYveF9CYoKgV
+	f+iMBMEkRM3HvhT6T0lzNtaICB/u5yTNm3bj9wSH15TMwH37o1670EGd+vuWnV4mDryUlKEm+6Pyt
+	SVpEvMnnibvk6F9pvW6XgMwJpHIf2VJN9O8nySVRXquja7izprlmABcn1r95bvk/XJDqsY9K6xfnm
+	agLdXpKA==;
+Received: from cslearni by iix4.cloudhost.id with local (Exim 4.91)
+	(envelope-from <admin@cs-learning.ml>)
+	id 1fNVtI-004AXy-5P
+	for 000@gmail.com; Tue, 29 May 2018 11:05:44 +0700
+To: "Muhammad Fakhri Rahman" <000@gmail.com>
+Subject: New message from Eko Fajar Putra
+X-PHP-Script: cs-learning.ml/lib/ajax/service.php for 125.163.49.184
+X-PHP-Originating-Script: 2886:PHPMailer.php
+Date: Tue, 29 May 2018 00:05:44 -0400
+From: "Eko Fajar Putra (via CS Learning)" <admin@cs-learning.ml>
+Reply-To: "Do not reply to this email" <admin@cs-learning.ml>
+Message-ID: <5b0cd1980a2044.70300659@cs-learning.ml>
+X-Mailer: PHPMailer 6.0.1 (https://github.com/PHPMailer/PHPMailer)
+X-Moodle-Originating-Script: http://cs-learning.ml => iix4.cloudhost.id:message/lib.php:722
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-AuthUser: cslearni@iix4.cloudhost.id
+X-Originating-IP: 103.15.226.60
+X-AntiSpamCloud-Domain: masuk.web.id
+X-AntiSpamCloud-Username: iix
+Authentication-Results: antispamcloud.com; auth=pass (login) smtp.auth=iix@masuk.web.id
+X-AntiSpamCloud-Outgoing-Class: unsure
+X-AntiSpamCloud-Outgoing-Evidence: Combined (0.39)
+X-Recommended-Action: accept
+X-Filter-ID: EX5BVjFpneJeBchSMxfU5o81v+AfAD/AGLu1vbm86sd602E9L7XzfQH6nu9C/Fh9KJzpNe6xgvOx
+ q3u0UDjvO3ySoMq/7ePsnUgs3gH064kPYZsaI2kCBHeCqiuMCNMdImIXc8gagaGpRmUohcDvas7i
+ TvJ2/ZGzVWB9scFAaCdIFaUvXN+CI+RGy3Me16pBy0LkIcQZ+RRGzUcmNZyDXh/TBCf6oYXAWGet
+ lavcAjD9ytQxIHf9lN5jjLJaPK8lRJSPf/SXbEnDSsal/zZzc4n9VZdr7RAFD5mRwooUYhwMPaBP
+ aKeQW+/QlaOdv8is7XpSXuDwpZaLFhplWPJsRzwxhdmfSTjy7DN1NTo3EBYEMUKEON67tN5V4GA3
+ 8HmcTs5Ex5aNZlcgVQFtAhrEij3dKxLhoxcmaInYbR5vlqETd+klAX+KFYkIxu6zxdn+TAas0edm
+ B2q/yBRqnQY9WlIcMSgqtcKbU9La+AHiCFB9vuYMeDoXsMJDD9CZFW2Drvl3AsHuisl/RSyh5DLe
+ 1OidX4Ts4xdG+C13IyWeZaJp2rd0CUmEqTszreuN8Vs3nnXm95a0vRtjH3/UwFOlraMUuNja6TMX
+ mF7IJMHUPoGooz0Isc8rvSVjTNNL8nVbnWA/gdZmV+PW55YwEB+TRxhVeJyYw6kjZyUjXfcT0cl8
+ WI9x7FI+tEcQ9xuxvD2+K1YRKhtoI1OsgrKO9HJpEGWGMJDtczFs/MtkO8Pv+bz4owOA1SUc3ZFF
+ 8FPTgHHRLTzYMnCnBtS/2XXwEFPA8RL6V8DWudFQaENyR2ypdYNAodjof7BIKhW/C+q7MMOIfFiP
+ cexSPrRHEPcbsbw9vv8UgBNjs3SlYIqFt+QlO1ONKfizT5OIj6JetR5U8woPVgW9/bktU41htiJ8
+ fk7NkNCIViYAotSOTaR8mO2wutkDiXYx29PKqnr+GUoxJUlix014SK1c2LXihla8healWQ==
+X-Report-Abuse-To: spam@quarantine1.antispamcloud.com
+
+
+Euy
+
+---------------------------------------------------------------------
+This is a copy of a message sent to you at "CS Learning". Go to
+http://cs-learning.ml/message/index.php?user=13&id=12 to reply.
+
+
+--1527566795-eximdsn-1410738196--

@@ -1,0 +1,166 @@
+Return-Path: <>
+Delivered-To: admin@cs-learning.ml
+Received: from iix4.cloudhost.id
+	by iix4.cloudhost.id with LMTP id eLNXJ2aQB1tfxQcAPFtZuw
+	for <admin@cs-learning.ml>; Fri, 25 May 2018 11:26:14 +0700
+Return-path: <>
+Envelope-to: admin@cs-learning.ml
+Delivery-date: Fri, 25 May 2018 11:26:14 +0700
+Received: from mx66.antispamcloud.com ([46.165.217.142]:56490)
+	by iix4.cloudhost.id with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1fM4Il-0028uB-7g
+	for admin@cs-learning.ml; Fri, 25 May 2018 11:26:14 +0700
+Received: from Debian-exim by mx66.antispamcloud.com with local (Exim 4.89)
+	id 1fM4I1-0005Qj-BH
+	for admin@cs-learning.ml; Fri, 25 May 2018 06:25:17 +0200
+X-Failed-Recipients: 0000@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@mx66.antispamcloud.com>
+To: admin@cs-learning.ml
+Content-Type: multipart/report; report-type=delivery-status; boundary=1527222317-eximdsn-1503336170
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fM4I1-0005Qj-BH@mx66.antispamcloud.com>
+Date: Fri, 25 May 2018 06:25:17 +0200
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "iix4.cloudhost.id",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  This message was created automatically by mail delivery software.
+    A message that you sent could not be delivered to one or more of its recipients.
+    This is a permanent error. The following address(es) 
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+X-From-Rewrite: unmodified, no actual sender determined from check mail permissions
+
+--1527222317-eximdsn-1503336170
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  0000@gmail.com
+    host gmail-smtp-in.l.google.com [64.233.167.26]
+    SMTP error from remote mail server after RCPT TO:<0000@gmail.com>:
+    550-5.1.1 The email account that you tried to reach does not exist. Please try
+    550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at
+    550 5.1.1  https://support.google.com/mail/?p=NoSuchUser 32-v6si7978447wrp.111 - gsmtp
+
+--1527222317-eximdsn-1503336170
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; mx66.antispamcloud.com
+
+Action: failed
+Final-Recipient: rfc822;0000@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser 32-v6si7978447wrp.111 - gsmtp
+
+--1527222317-eximdsn-1503336170
+Content-type: message/rfc822
+
+Return-path: <admin@cs-learning.ml>
+Received: from iix4.cloudhost.id ([103.15.226.60])
+	by mx66.antispamcloud.com with esmtpsa (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <admin@cs-learning.ml>)
+	id 1fM4Hz-0004LP-Ev
+	for 0000@gmail.com; Fri, 25 May 2018 06:25:16 +0200
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=cs-learning.ml; s=default; h=Content-Type:MIME-Version:Message-ID:Reply-To:
+	From:Date:Subject:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=WukJbqdOtb6IH+yKUjIHlEtrFD5INE383ZUkQaODbVc=; b=HJt1n+kkllD9OGr86sir2xEmCl
+	qxx6mH4zGhhn/WdIBNnQqtj1MfEp/upPiLzXQ//xek77iXRp9Hk2PsHdXzc+jnCGzof0byK3jT/VM
+	AKr/uBHICaJxQTyHsOeObuKx6ttj8i5lHXzrBdBJJmFGB0LHw29pUgBjHUblL2xdKP1YklW8Af7sK
+	GG/JpEu6lfRfJ5qWVTHN54Q5YvHXSnADJBFWW33BMD4OsYV5GNOMKYgQz89TKkRDZIoizjVavEfgP
+	GaSozHSiBJ4udVrwWr0Jv5ylTEiRTSmXTBPSfNVPbs00HFVkbGCtMIuyTvsntoZeQ0RRNLJAX7TiB
+	c7gkCW6w==;
+Received: from cslearni by iix4.cloudhost.id with local (Exim 4.91)
+	(envelope-from <admin@cs-learning.ml>)
+	id 1fM4Gx-0028IP-4Y
+	for 0000@gmail.com; Fri, 25 May 2018 11:24:11 +0700
+To: "Ghema Allan Ferdiansyah" <0000@gmail.com>
+Subject: You have submitted your assignment submission for Kantong Slide Presentasi Kelompok (A &amp; B 2015)
+X-PHP-Script: cs-learning.ml/mod/assign/view.php for 180.245.180.136
+X-PHP-Originating-Script: 2886:PHPMailer.php
+Date: Fri, 25 May 2018 00:24:10 -0400
+From: "Do not reply to this email  (via CS Learning)" <admin@cs-learning.ml>
+Reply-To: "Do not reply to this email" <admin@cs-learning.ml>
+Message-ID: <5b078fea148503.65331882@cs-learning.ml>
+X-Mailer: PHPMailer 6.0.1 (https://github.com/PHPMailer/PHPMailer)
+X-Moodle-Originating-Script: http://cs-learning.ml => iix4.cloudhost.id:mod/assign/locallib.php:6030
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_0UkJmN00FKLK1IdzKJ1UOluz4gpTOW6LZOie9Vqdi4"
+X-AuthUser: cslearni@iix4.cloudhost.id
+X-Originating-IP: 103.15.226.60
+X-AntiSpamCloud-Domain: masuk.web.id
+X-AntiSpamCloud-Username: iix
+Authentication-Results: antispamcloud.com; auth=pass (login) smtp.auth=iix@masuk.web.id
+X-AntiSpamCloud-Outgoing-Class: unsure
+X-AntiSpamCloud-Outgoing-Evidence: Combined (0.20)
+X-Recommended-Action: accept
+X-Filter-ID: EX5BVjFpneJeBchSMxfU5rr+ES8xuwzw9iYQiumARFp602E9L7XzfQH6nu9C/Fh9KJzpNe6xgvOx
+ q3u0UDjvO+uSrV9I6ZlVBiUoCSAss0wNgnv+1JJRR7Qdnx4ud5RCWAfqcRM+WiNYLQrO5I2DJFDj
+ fzzJ6O8jiVhZi+WiYeCsScX6I9Dl5i6VrUM1b/j5CwBCT9sIkLmxDvdn5Y/nzU5EpHPznVavQp4h
+ 1cyzxbQFXqQgkkYk8mNUb0+uxPxhiSGt4Ko2sv7hY6P0Yu3OA+AIcPc2JG++Fh0y/kogNkMJ0464
+ etNXHOU+5Kb0QuG3bATPP9eeLWC5kDweN7crsbwKzwcIrESvT8DDU7mfUuRuZc+i51GTUh5yB1qM
+ H+qJCSavQBrPoagEXfZ210Cx8bwqyT5p50x81ZKcmzCu2U1l0pLLr6Q2GfeLeJGF+80DeGS2NlHa
+ lU3pouehsm1GUjWKtLT9WR57oxUvRixjadcobnduoQv5Sp6y3SmK1n5SMPepZn00xVXQbuUt1pns
+ FwEiRQv+PVjjwa+Z5RFCOMTwcD+deSsUec2uUy1l2Ykmt8g/vrNLxX8is3M8EaOenk/V7FP2/avh
+ xycrFvudu7LglRwKVbLAY5lVRxTvPccbPp9BiPr4nOCCshVoLPwtkPdjzQ6YC7Heg3Xf7O1TOd4W
+ mlFlx6Iwnn7apOrDYZ2imQjS7VfJ9ONSaefaZrDDiLa7wo/FJFbLbQgNRsT4Zwidrs36P4HbLmjX
+ 8NYrdsF20iOpaAk5k7HicucrqW8ENdwYmnVAjR1L5xXpnCLo/6XrjuU3A3io6xJmD59iFVkbbfqG
+ 6Wq9NKFMIth5kRFUyxLoNW3UF/98nyPyeFbViIsowUQdLf6+382Ox500OY/D8t3Xj/LzZ5s/OJg1
+ L2asZwdYWFVC8oN31oebW3M9pgG+9SDZkvymmjm2mFx+CerqzlRSpFGqoC5QdlUp/3Cf8g==
+X-Report-Abuse-To: spam@quarantine1.antispamcloud.com
+
+This is a multi-part message in MIME format.
+--b1_0UkJmN00FKLK1IdzKJ1UOluz4gpTOW6LZOie9Vqdi4
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=0ADUI -> Assignment -> Kantong Slide Presentasi Kelompok (A &amp; B 2015)=
+=0A---------------------------------------------------------------------=0A=
+You have submitted an=0Aassignment submission for 'Kantong Slide Presentasi=
+ Kelompok (A &amp; B 2015)'=0A=0AYou can see the status of your assignment =
+submission:=0A=0A    http://cs-learning.ml/mod/assign/view.php?id=3D11=0A=
+=0A---------------------------------------------------------------------=0A
+--b1_0UkJmN00FKLK1IdzKJ1UOluz4gpTOW6LZOie9Vqdi4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p><font face=3D"sans-serif"><a href=3D"http://cs-learning.ml/course/view.p=
+hp?id=3D2">DUI</a> -><a href=3D"http://cs-learning.ml/mod/assign/index.php?=
+id=3D2">Assignment</a> -><a href=3D"http://cs-learning.ml/mod/assign/view.p=
+hp?id=3D11">Kantong Slide Presentasi Kelompok (A &amp; B 2015)</a></font></=
+p><hr /><font face=3D"sans-serif"><p><p>You have submitted an assignment su=
+bmission for '<i>Kantong Slide Presentasi Kelompok (A &amp; B 2015)</i>'.</=
+p>=0A<p>You can see the status of your <a href=3D"http://cs-learning.ml/mod=
+/assign/view.php?id=3D11">assignment submission</a>.</p></p></font><hr />
+
+--b1_0UkJmN00FKLK1IdzKJ1UOluz4gpTOW6LZOie9Vqdi4--
+
+
+--1527222317-eximdsn-1503336170--

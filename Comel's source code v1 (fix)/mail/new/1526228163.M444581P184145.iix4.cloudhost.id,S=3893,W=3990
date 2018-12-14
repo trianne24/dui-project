@@ -1,0 +1,97 @@
+Return-Path: <>
+Delivered-To: cslearni@iix4.cloudhost.id
+Received: from iix4.cloudhost.id
+	by iix4.cloudhost.id with LMTP id cOb9GcNk+FpRzwIAPFtZuw
+	for <cslearni@iix4.cloudhost.id>; Sun, 13 May 2018 23:16:03 +0700
+Return-path: <>
+Envelope-to: cslearni@iix4.cloudhost.id
+Delivery-date: Sun, 13 May 2018 23:16:03 +0700
+Received: from mailnull by iix4.cloudhost.id with local (Exim 4.90_1)
+	id 1fHtfH-000n1n-8J
+	for cslearni@iix4.cloudhost.id; Sun, 13 May 2018 23:16:03 +0700
+X-Failed-Recipients: alicetheuglyduckling@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@iix4.cloudhost.id>
+To: cslearni@iix4.cloudhost.id
+Content-Type: multipart/report; report-type=delivery-status; boundary=1526228163-eximdsn-1586168923
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fHtfH-000n1n-8J@iix4.cloudhost.id>
+Date: Sun, 13 May 2018 23:16:03 +0700
+X-From-Rewrite: unmodified, actual sender is mailnull
+
+--1526228163-eximdsn-1586168923
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  alicetheuglyduckling@gmail.com
+    host 4403.smtp.antispamcloud.com [69.64.57.56]
+    SMTP error from remote mail server after MAIL FROM:<cslearni@iix4.cloudhost.id> SIZE=2427 AUTH=cslearni@iix4.cloudhost.id:
+    550-Verification failed for <cslearni@iix4.cloudhost.id>
+    550-Called:   103.15.226.60
+    550-Sent:     RCPT TO:<cslearni@iix4.cloudhost.id>
+    550-Response: 550-You do not have sufficient privileges to send mail to this address.  Please
+    550-550 authenticate and try again.
+    550 Invalid sender <cslearni@iix4.cloudhost.id>
+
+--1526228163-eximdsn-1586168923
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; iix4.cloudhost.id
+
+Action: failed
+Final-Recipient: rfc822;alicetheuglyduckling@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; 4403.smtp.antispamcloud.com
+Diagnostic-Code: smtp; 550-Verification failed for <cslearni@iix4.cloudhost.id>
+ 550-Called:   103.15.226.60
+ 550-Sent:     RCPT TO:<cslearni@iix4.cloudhost.id>
+ 550-Response: 550-You do not have sufficient privileges to send mail to this address.  Please
+ 550-550 authenticate and try again.
+ 550 Invalid sender <cslearni@iix4.cloudhost.id>
+
+--1526228163-eximdsn-1586168923
+Content-type: message/rfc822
+
+Return-path: <cslearni@iix4.cloudhost.id>
+Received: from cslearni by iix4.cloudhost.id with local (Exim 4.90_1)
+	(envelope-from <cslearni@iix4.cloudhost.id>)
+	id 1fHteX-000mai-DV
+	for alicetheuglyduckling@gmail.com; Sun, 13 May 2018 23:15:17 +0700
+To: alicetheuglyduckling@gmail.com
+Subject: =?UTF-8?B?TmV3IEluc3RhbGxhdGlvbiBvZiBNb29kbGU=?=
+X-PHP-Originating-Script: 0:mail_functions.php
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+From: Softaculous <admin@nightkidz.net>
+Reply-To: admin@nightkidz.net
+X-Mailer: PHP/5.6.30
+Message-Id: <E1fHteX-000mai-DV@iix4.cloudhost.id>
+Date: Sun, 13 May 2018 23:15:17 +0700
+
+A new installation of Moodle 3.4.2 has been completed. The details of the installation are shown below:
+Path : /home/cslearni/public_html
+URL : http://cs-learning.ml
+Admin URL : http://cs-learning.ml/admin
+Data Directory : /home/cslearni/moodledata
+Admin Username : admin
+Admin Password : ********
+Admin Email: admin@cs-learning.ml
+MySQL Database : cslearni_mood563
+MySQL DB User : cslearni_mood563
+MySQL DB Host : localhost
+MySQL DB Password : ********
+Cron Job : /opt/cpanel/ea-php70/root/usr/bin/php -q /home/cslearni/public_html/admin/cli/cron.php
+Update Notification : Enabled
+Auto Upgrade : Disabled
+Automated Backups : Disabled
+Time of Installation : May 13, 2018, 4:15 pm
+
+If you wish to unsubscribe from such emails, go to your Control Panel -> Softaculous -> Email Settings
+
+
+--1526228163-eximdsn-1586168923--

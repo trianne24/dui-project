@@ -1,0 +1,212 @@
+Return-Path: <>
+Delivered-To: admin@cs-learning.ml
+Received: from iix4.cloudhost.id
+	by iix4.cloudhost.id with LMTP id cKjpJdCdB1tK/AkAPFtZuw
+	for <admin@cs-learning.ml>; Fri, 25 May 2018 12:23:28 +0700
+Return-path: <>
+Envelope-to: admin@cs-learning.ml
+Delivery-date: Fri, 25 May 2018 12:23:28 +0700
+Received: from mx61.antispamcloud.com ([37.48.65.165]:53812)
+	by iix4.cloudhost.id with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1fM5CE-002kAq-EF
+	for admin@cs-learning.ml; Fri, 25 May 2018 12:23:28 +0700
+Received: from Debian-exim by mx61.antispamcloud.com with local (Exim 4.89)
+	id 1fM5Ba-000BoQ-Mf
+	for admin@cs-learning.ml; Fri, 25 May 2018 07:22:42 +0200
+X-Failed-Recipients: 0000@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@mx61.antispamcloud.com>
+To: admin@cs-learning.ml
+Content-Type: multipart/report; report-type=delivery-status; boundary=1527225762-eximdsn-993514715
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fM5Ba-000BoQ-Mf@mx61.antispamcloud.com>
+Date: Fri, 25 May 2018 07:22:42 +0200
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "iix4.cloudhost.id",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  This message was created automatically by mail delivery software.
+    A message that you sent could not be delivered to one or more of its recipients.
+    This is a permanent error. The following address(es) 
+ 
+ Content analysis details:   (1.3 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cs-learning.ml]
+  0.0 T_SPF_HELO_TEMPERROR   SPF: test of HELO record failed (temperror)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.3 HTML_IMAGE_ONLY_24     BODY: HTML: images with 2000-2400 bytes of words
+X-Spam-Flag: NO
+X-From-Rewrite: unmodified, no actual sender determined from check mail permissions
+
+--1527225762-eximdsn-993514715
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  0000@gmail.com
+    host gmail-smtp-in.l.google.com [173.194.69.26]
+    SMTP error from remote mail server after RCPT TO:<0000@gmail.com>:
+    550-5.1.1 The email account that you tried to reach does not exist. Please try
+    550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at
+    550 5.1.1  https://support.google.com/mail/?p=NoSuchUser t30-v6si4468026edd.24 - gsmtp
+
+--1527225762-eximdsn-993514715
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; mx61.antispamcloud.com
+
+Action: failed
+Final-Recipient: rfc822;0000@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser t30-v6si4468026edd.24 - gsmtp
+
+--1527225762-eximdsn-993514715
+Content-type: message/rfc822
+
+Return-path: <admin@cs-learning.ml>
+Received: from iix4.cloudhost.id ([103.15.226.60])
+	by mx61.antispamcloud.com with esmtpsa (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <admin@cs-learning.ml>)
+	id 1fM5BZ-000AbC-6B
+	for 0000@gmail.com; Fri, 25 May 2018 07:22:42 +0200
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=cs-learning.ml; s=default; h=Content-Type:MIME-Version:List-Unsubscribe:
+	List-Help:List-Id:Message-ID:Reply-To:From:Date:Subject:To:Sender:Cc:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:
+	References:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=Ys71qHa0xOevDedEb3HXru8XCMiz70nT7CMQYiYMGkg=; b=HQzzPIU9d44L0j1F4kXOnTMbg+
+	BvNTrLYVUVfo4E/ezEX71ggCCPxMuXucxzyZQH93ZReLvnnT8GWba02pbCs+83oEtDbuXd+dK0Mu4
+	SauUbRonig/JKDUdZJI9z8j+PkAqacjglzReQQve1lsmvDzsUdLe13xvzvI4UHCwOU92o3Uf+KVyY
+	2fCVUhjmcesUjDA7TE+3AQ200nB4668fhvYfZLnGmNo1zTRwsphLj7k6ylqXwvHW9c/sSP/mS3Xg+
+	5OqW79/n5vzL0fW46mK9CBgoEeLkbzJ8otKxtVorUh88Tc6PVGmTaGCAQSlVVqcT/IBin9LLbhHCt
+	9vUuaIkQ==;
+Received: from cslearni by iix4.cloudhost.id with local (Exim 4.91)
+	(envelope-from <admin@cs-learning.ml>)
+	id 1fM5Al-002jby-Hz
+	for 0000@gmail.com; Fri, 25 May 2018 12:21:51 +0700
+To: "Ghema Allan Ferdiansyah" <0000@gmail.com>
+Subject: DUI: Test
+X-PHP-Originating-Script: 2886:PHPMailer.php
+Date: Fri, 25 May 2018 01:21:51 -0400
+From: "Ghema Allan Ferdiansyah (via CS Learning)" <admin@cs-learning.ml>
+Reply-To: "Do not reply to this email" <admin@cs-learning.ml>
+Message-ID: <c6b89921571652eaf994b47f0eebc3065142c71bddc29615c9c95c668819b72b@cs-learning.ml>
+X-Mailer: PHPMailer 6.0.1 (https://github.com/PHPMailer/PHPMailer)
+List-Id: "Forum Diskusi W2 - UI Design Process (P1)" <moodleforum6@cs-learning.ml>
+List-Help: http://cs-learning.ml/mod/forum/view.php?f=6
+X-Course-Id: 2
+X-Course-Name: Desain User Interface
+Precedence: Bulk
+X-Auto-Response-Suppress: All
+Auto-Submitted: auto-generated
+List-Unsubscribe: <http://cs-learning.ml/mod/forum/subscribe.php?id=6&d=2>
+Thread-Topic: DUI: Test
+Thread-Index: c6b89921571652eaf994b47f0eeb
+X-Moodle-Originating-Script: http://cs-learning.ml => iix4.cloudhost.id:mod/forum/lib.php:878
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_x58gjOnev1KbHM0MgbDm6HPOaz3dXDmr8B8ELfz4o"
+X-AuthUser: cslearni@iix4.cloudhost.id
+X-Originating-IP: 103.15.226.60
+X-AntiSpamCloud-Domain: masuk.web.id
+X-AntiSpamCloud-Username: iix
+Authentication-Results: antispamcloud.com; auth=pass (login) smtp.auth=iix@masuk.web.id
+X-AntiSpamCloud-Outgoing-Class: unsure
+X-AntiSpamCloud-Outgoing-Evidence: Combined (0.21)
+X-Recommended-Action: accept
+X-Filter-ID: EX5BVjFpneJeBchSMxfU5nU4VmDWgFkVhxlogF1OpQN602E9L7XzfQH6nu9C/Fh9KJzpNe6xgvOx
+ q3u0UDjvO+uSrV9I6ZlVBiUoCSAss0wNgnv+1JJRR7Qdnx4ud5RCj96vZjTaMj1P7oYAmWI0tlDj
+ fzzJ6O8jiVhZi+WiYeCsScX6I9Dl5i6VrUM1b/j52/TRjU7znIc9NYfKkdzfqE5EpHPznVavQp4h
+ 1cyzxbQFXqQgkkYk8mNUb0+uxPxhiSGt4Ko2sv7hY6P0Yu3OA+AIcPc2JG++Fh0y/kogNkMJ0464
+ etNXHOU+5Kb0QuG3bATPP9eeLWC5kDweN7crsbwKzwcIrESvT8DDU7mfUuRuZc+i51GTUh5yB1qM
+ H+qJCSavQBrPoagEXfZ210Cx8bwqyT5p50x81ZKcmzCu2U1l0pLLr6Q2GfeLeJGF+80DeGS2NlHa
+ lU3pouehsm1GUjWKtLT9WR57oxUvRixjadc/61QKboJ2ktnQdk7z+PAPMPepZn00xVXQbuUt1pns
+ FwEiRQv+PVjjwa+Z5RFCOMREy4BVXb7KSWQ5Lk2a3pVDF8FcHzzV3acxBudgYcInb4bXBEcK4PX1
+ wFxQd3w8DTccCaOT1U1ZxU0C1ocQRtJHzftm5kqP0RO8iRqMqHTNFIsEMysPur9wmiDBurOy6iQM
+ Qq91X2taljCdSK0Gfp6iHNLIMinSmkMkM0ElCkw7hgVk/NpNZMIVKXeX/kbj+ZDdhR+MgH5DOHmi
+ QErBe8tI5jZSNtE63+uzUXRP+fRcXa0TzNSxUgGkP4k7nrKsDix+pvlHhV6a5QjptwQBGybQo3Gw
+ 7M6zT0rJYZeKdEBUjgPih6bVlmpSvkPKEXIjus97mlO1A9NhUYPOfAGl+/9WIRFsicyJMEhQFtD8
+ PLoiniIZtpnRdyvS9qr8CnmdObg6EwTpkIpXptu5RRWVDOfSNn8JRlAY1YIkECVE3hYDLA==
+X-Report-Abuse-To: spam@quarantine1.antispamcloud.com
+
+This is a multi-part message in MIME format.
+--b1_x58gjOnev1KbHM0MgbDm6HPOaz3dXDmr8B8ELfz4o
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=0ADUI -> Forums -> Forum Diskusi W2 - UI Design Process (P1) -> Test =0Aht=
+tp://cs-learning.ml/mod/forum/discuss.php?d=3D2#p2=0ATest=0Aby Ghema Allan =
+Ferdiansyah - Friday, 25 May 2018, 11:25 AM=0A-----------------------------=
+----------------------------------------=0ATeest=0A=0A=0A=0A---------------=
+------------------------------------------------------=0AThis is a copy of =
+a message posted in DUI.=0A=0ATo reply click on this link: http://cs-learni=
+ng.ml/mod/forum/post.php?reply=3D2=0AUnsubscribe from this forum: http://cs=
+-learning.ml/mod/forum/subscribe.php?id=3D6=0AUnsubscribe from this discuss=
+ion:=0Ahttp://cs-learning.ml/mod/forum/subscribe.php?id=3D6&d=3D2=0AChange =
+your forum digest preferences:=0Ahttp://cs-learning.ml/mod/forum/index.php?=
+id=3D2=0A
+--b1_x58gjOnev1KbHM0MgbDm6HPOaz3dXDmr8B8ELfz4o
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"navbar">=0A    <a target=3D"_blank" href=3D"http://cs-learnin=
+g.ml/course/view.php?id=3D2">DUI</a>=0A    &raquo;=0A    <a target=3D"_blan=
+k" href=3D"http://cs-learning.ml/mod/forum/index.php?id=3D2">Forums</a>=0A =
+   &raquo;=0A    <a target=3D"_blank" href=3D"http://cs-learning.ml/mod/for=
+um/view.php?f=3D6">Forum Diskusi W2 - UI Design Process (P1)</a>=0A    &raq=
+uo;=0A    <a target=3D"_blank" href=3D"http://cs-learning.ml/mod/forum/disc=
+uss.php?d=3D2">Test</a>=0A</div>=0A=0A<table border=3D"0" cellpadding=3D"3"=
+ cellspacing=3D"0" class=3D"forumpost">=0A    <tr class=3D"header">=0A     =
+   <td width=3D"35" valign=3D"top" class=3D"picture left">=0A            <a=
+ href=3D"http://cs-learning.ml/user/view.php?id=3D14&amp;course=3D2"><img s=
+rc=3D"http://cs-learning.ml/theme/image.php/_s/roshnilite/core/1526282596/u=
+/f2" alt=3D"Picture of Ghema Allan Ferdiansyah" title=3D"Picture of Ghema A=
+llan Ferdiansyah" class=3D"userpicture defaultuserpic" width=3D"35" height=
+=3D"35" /></a>=0A        </td>=0A        <td class=3D"topic starter">=0A   =
+         <div class=3D"subject">=0A                Test=0A            </div=
+>=0A            <div class=3D"author">=0A                by <a target=3D'_b=
+lank' href=3D'http://cs-learning.ml/user/view.php?id=3D14&course=3D2'>Ghema=
+ Allan Ferdiansyah</a> - Friday, 25 May 2018, 11:25 AM=0A            </div>=
+=0A        </td>=0A    </tr>=0A    <tr>=0A        <td class=3D"left side" v=
+align=3D"top">=0A                &nbsp;=0A        </td>=0A        <td class=
+=3D"content">=0A            <p>Teest</p>=0A=0A            <div class=3D"com=
+mands">=0A                    <a target=3D"_blank" href=3D"http://cs-learni=
+ng.ml/mod/forum/post.php?reply=3D2">=0A                        Reply=0A    =
+                </a>=0A            </div>=0A=0A            <div class=3D"li=
+nk">=0A                <a target=3D"_blank" href=3D"http://cs-learning.ml/m=
+od/forum/discuss.php?d=3D2#p2">=0A                    See this post in cont=
+ext=0A                </a>=0A            </div>=0A        </td>=0A    </tr>=
+=0A</table>=0A=0A<hr />=0A<div class=3D"mdl-align unsubscribelink">=0A    <=
+a href=3D"http://cs-learning.ml/mod/forum/subscribe.php?id=3D6">Unsubscribe=
+ from this forum</a>&nbsp;=0A    <a href=3D"http://cs-learning.ml/mod/forum=
+/subscribe.php?id=3D6&d=3D2">Unsubscribe from this discussion</a>&nbsp;=0A =
+   <a href=3D"http://cs-learning.ml/mod/forum/index.php?id=3D2">Change your=
+ forum digest preferences</a>=0A</div>
+
+--b1_x58gjOnev1KbHM0MgbDm6HPOaz3dXDmr8B8ELfz4o--
+
+
+--1527225762-eximdsn-993514715--
